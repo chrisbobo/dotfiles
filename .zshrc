@@ -3,7 +3,7 @@ source ~/.bashrc
 autoload colors zsh/terminfo
 
 # vagrant gh creds
-export gh_email="jtrinklein"
+export gh_email="chrisbobo"
 if [[ $OSTYPE = darwin* ]]
 then
     export gh_password=`node ~/scripts/crypt.js -d 8d54ca48854a5ddb688baaeff561e17f e15695583d4410e539e14f420c94e531`
