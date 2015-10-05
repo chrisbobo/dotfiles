@@ -10,6 +10,7 @@ then
 fi
 export PHANTOMJS_BIN='/usr/local/bin/phantomjs'
 export VM_HOSTNAME='WIN-2008R2SP1'
+# PpmEndpointTests Configuration
 export DB_SERVER_NAME=$VM_HOSTNAME
 
 # Path to your oh-my-zsh configuration.
